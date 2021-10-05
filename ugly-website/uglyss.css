@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+
+html {
+    background-color:greenyellow;
+    font-family: 'Tangerine', cursive;
+}
+
+h1{
+    font-size: 10em;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+div {
+    margin: 2em;
+    padding:2em 0;
+    background-color:red;
+    font-size: 3em;
+    letter-spacing: 1em;
+    border-style: dotted dashed;
+    border-width: 10px;
+    border-radius: 1em;
+}
+
+#black {
+    background-color: black;
+    border-color: red;
+}
+
+ul {
+    background: greenyellow;
+    padding: 20px;
+    list-style-type: square;
+    list-style-position: inside;
+    text-align: center;
+  }
+
+li{
+    display: inline;
+    float: center;
+    background: red;
+    margin: 5px;
+    color: honeydew;
+    letter-spacing: 0.3em;
+    font-weight: 800;
+  }
