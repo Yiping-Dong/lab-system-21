@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Praise&family=Yuji+Boku&display=swap');
 
 html {
     background-color:greenyellow;
@@ -11,10 +12,6 @@ html {
     margin: 0 35%;
 }
 
-/* #refill {
-    fill: rgb(255,240,70);
-} */
-
 h1{
     font-size: 10em;
     text-align: center;
@@ -23,7 +20,10 @@ h1{
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 }
 
+
+
 div {
+    display: block;
     margin: 2em;
     padding:2em 0;
     background-color:red;
@@ -49,7 +49,6 @@ ul {
 
 li{
     display: inline;
-    float: center;
     background: red;
     margin: 5px;
     color: honeydew;
@@ -63,3 +62,70 @@ li{
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 
   }
+
+  @media screen and (max-width: 768px) {
+    html {
+        font-family: 'Praise', cursive;
+        background-color:red;
+    }
+
+    h1 {
+        font-size: 7em;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(255,220,0), 0 0 40px rgb(255,220,0), 0 0 50px rgb(255,220,0), 0 0 60px rgb(255,220,0), 0 0 70px rgb(255,220,0);
+    }
+
+    .svg-object {
+        height: 300px;    
+        width: 300px;
+    }
+
+    div {
+        margin: 0.8em;
+        padding: 0.8em 0;
+        transform: scaleX(-1);
+        background-color: greenyellow;
+    }
+
+    ul {
+        background: red;
+    }
+
+    li {
+        background: greenyellow;
+    }
+
+
+}
+
+@media screen and (max-width: 376px) {
+    html {
+        font-family: 'Yuji Boku', serif;
+    }
+
+    h1 {
+        font-size: 4em;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(0, 255, 0), 0 0 40px rgb(0, 255, 0), 0 0 50px rgb(0, 255, 0), 0 0 60px rgb(0, 255, 0), 0 0 70px rgb(0, 255, 0);
+    }  
+
+    .svg-object {
+        height: 150px;    
+        width: 150px;
+    }
+
+    div {
+        margin: 0.3em;
+        padding: 0.3em 0;
+        transform: scaleX(-1);
+        background-color:greenyellow;
+    }
+
+    ul {
+        background: red;
+    }
+
+    li {
+        background: greenyellow;
+    }
+
+
+}
